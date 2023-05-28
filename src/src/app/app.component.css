@@ -13,17 +13,16 @@ app-box {
     align-items: center;
     text-align: center;
 }
-
 app-button {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: lightgray;
+    background-color: #399AF2;
     border: 1px;
     border-color: black;
     padding: 10px;
-}   
+}
 .boxes2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

@@ -6,16 +6,17 @@
     padding: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   
 .logo img {
-    max-height: 40px;
-    max-width: 40px;
+    max-height: 60px;
+    max-width: 60px;
     margin-right: 10px;
   }
   
 .site-title {
-    font-size: 24px;
+    font-size: 32px;
     margin: 0;
     font-family: 'Zen Dots', cursive;
   }

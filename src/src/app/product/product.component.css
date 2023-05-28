@@ -1,0 +1,130 @@
+
+.container {
+color:#fff;
+}
+.reviews{
+    padding-left: 5ch;
+    padding-top: 8ch;
+    max-width: 500px;
+    margin-left: 5ch;
+}
+.profile{
+    background-image: url('https://media.istockphoto.com/photos/closeup-of-lion-panthera-leo-8-years-old-in-front-of-white-background-picture-id944272094?k=20&m=944272094&s=612x612&w=0&h=X9kSUtTha4wKrtZRKaArKS0cPON-IvxMGGb9LpKl8vk=');
+    background-size: cover;
+}
+
+.up{
+
+    display: flex;
+    width: 100%;
+}
+.images{
+    width: 100%;
+    display: flex;
+
+}
+.secondaire{
+    
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    
+    width: 110px;
+    height: 33.3%;
+}
+.image:hover{
+    cursor: pointer;
+}
+.imagep{
+    width: 600px;
+}
+.upright{
+    padding-left: 5ch;
+    display: flex;
+    flex-direction: column;
+}
+.upright > p{
+    background-color: purple;
+    font-weight: bold;
+    box-shadow: 4px 4px 4px 3px #888888;
+}
+.upright > .rating{
+
+    display: flex;
+    flex-direction: column;
+}
+.rat{
+
+    display: flex;
+}
+
+.comp{
+    padding-top:5ch;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.dropown{
+    padding-top: 2ch;
+}
+.dropown button{
+    height: 50px;
+    width: 600px;    
+}
+.dropown div{
+    background-color:#fff;
+    color:black;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    z-index:1;
+    visibility:hidden;
+    position:absolute;
+    min-width:100%;
+    opacity:0;
+    transition:.3s;
+    width: 200px;
+}
+.dropown:hover div{
+    visibility:visible;
+    opacity:1;
+    
+}
+.bottom{
+    margin-top: 5ch;
+    display: flex;
+    flex-direction: row;
+}
+.rating > p{
+    border-radius: 5px;
+    background-color: purple;
+    width: 70px;
+    height: 20px;
+    display: center;
+}
+.box
+{
+  z-index: -1;
+  position: absolute;
+  top : 38vh;
+  right: 70px;
+  display: grid;
+  width: 90vw;
+  grid-template-columns: 10vw 10vw 10vw;
+  align-items: start;
+  justify-content: space-evenly;
+  margin : 45vh 5% 0% 5%;
+}
+.card-front
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  background-color: #bbb;
+  color: black;
+}
+ 

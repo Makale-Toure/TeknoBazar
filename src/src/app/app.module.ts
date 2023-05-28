@@ -20,18 +20,24 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { LoginPageComponent } from './login-page/login-page.component';
-import { ProductComponent } from './product/product.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { BandeauComponent } from './bandeau/bandeau.component';
+import { HeaderComponent } from './header/header.component';
+import { BoxComponent } from './box/box.component';
+import { ButtonComponent } from './button/button.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginPageComponent,
-    ProductComponent,
     NavBarComponent,
+    BandeauComponent,
+    HeaderComponent,
+    BoxComponent,
+    ButtonComponent,
+    ContactComponent,
   ],
   imports: [
     RouterModule,

@@ -1,4 +1,22 @@
-
+<app-header></app-header>
 <app-nav-bar></app-nav-bar>
-<app-product></app-product>
+<app-bandeau [imageURL]="'assets/images/logo.png'" [texte]="'TeknoBazar'"></app-bandeau>
+<div class="boxes">
+    <app-box [texte]="'Portable'" [texte2]="'Ordinateur'" [texte3]="'Reconditionné'" [imageURL]="'assets/images/pc.png'"></app-box>
+    <app-box [texte]="'Cartes graphiques'" [texte2]="'Disques durs et SSD'" [texte3]="'Processeur'" [imageURL]="'assets/images/tour.png'"></app-box>
+    <app-box [texte]="'Reconditionné'" [texte2]="'Bras et Pied'" [texte3]="''" [imageURL]="'assets/images/ecran.png'"></app-box>
+    <app-button [buttonName]="'PC'"></app-button>
+    <app-button [buttonName]="'Build It'"></app-button>
+    <app-button [buttonName]="'Ecran'"></app-button>
+</div>
+<div>
+<app-bandeau [imageURL]="'assets/images/fire.svg'" [texte]="'Offres du moment'"></app-bandeau>
+</div>
 
+<div class="boxes2">
+<app-box [texte]="'679€39'" [texte2]="'600€99'" [texte3]="''" [imageURL]="'assets/images/asus.png'"></app-box>
+<app-box [texte]="'Cartes graphiques'" [texte2]="'Disques durs et SSD'" [texte3]="'Processeur'" [imageURL]="'assets/images/ecran_acer.png'"></app-box>
+<app-box [texte]="'Reconditionné'" [texte2]="'Bras et Pied'" [texte3]="''" [imageURL]="'assets/images/carte.png'"></app-box>
+</div>
+
+<app-contact class="reseaux" [texte]="'Suivez-nous !'"></app-contact>

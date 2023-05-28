@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Zen+Dots&display=swap');
+
+
+.banner {
+    background-color: #BDE3FF;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+.logo img {
+    max-height: 40px;
+    max-width: 40px;
+    margin-right: 10px;
+  }
+  
+.site-title {
+    font-size: 24px;
+    margin: 0;
+    font-family: 'Zen Dots', cursive;
+  }
